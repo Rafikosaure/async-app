@@ -1,0 +1,31 @@
+.products-list-container {
+    padding: 20px;
+}
+
+.products-list-ul {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    padding: 0;
+    justify-content: center;
+    align-items: center;
+    gap: 120px;
+}
+
+.products-list-li {
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    height: 200px;
+    border: solid 1px white;
+}
+
+.products-list-img {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+}
+
+.products-list-span {
+    padding-inline: 5px;
+}
